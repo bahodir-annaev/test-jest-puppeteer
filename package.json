@@ -1,0 +1,22 @@
+{
+  "name": "tenderpro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "verbose": true,
+    "preset": "jest-puppeteer",
+    "setupFilesAfterEnv": ["./jest.setup.js"]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^24.9.0",
+    "jest-puppeteer": "^4.3.0",
+    "puppeteer": "^1.20.0"
+  }
+}
